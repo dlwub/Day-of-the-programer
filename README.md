@@ -11,6 +11,26 @@ In both calendar systems, February is the only month with a variable amount of d
 - Divisible by 400.
 - Divisible by 4 and not divisible by 100.
 Given a year, y, find the date of the 256th day of that year according to the official Russian calendar during that year. Then print it in the format dd.mm.yyyy, where dd is the two-digit day, mm is the two-digit month, and yyyy is year.
+For example, the given  = 1984. 1984 is divisible by 4, so it is a leap year. The 256th day of a leap year after 1918 is September 12, so the answer is .
+
+Function Description
+
+Complete the dayOfProgrammer function in the editor below. It should return a string representing the date of the 256th day of the year given.
+
+dayOfProgrammer has the following parameter(s):
+
+year: an integer
+Input Format
+
+A single integer denoting year .
+
+Constraints
+
+1700 \le y \le 2700
+
+Output Format
+
+Print the full date of Day of the Programmer during year y in the format dd.mm.yyyy, where dd is the two-digit day, mm is the two-digit month, and yyyy is y.
 
 ## Author
 
